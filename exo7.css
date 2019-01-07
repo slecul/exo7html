@@ -1,0 +1,33 @@
+.titre1{
+  background-color: #2574A9;
+}
+ .champ1{
+   background-color: #2574A9;
+ }
+
+.champ2{
+  background-color: #9A12B3;
+}
+.titre2{
+  background-color: #9A12B3;
+}
+
+.champ3{
+  background-color: #DB0A5B;
+}
+.titre3{
+  background-color: #DB0A5B;
+}
+
+.area{
+  height: 100px;
+}
+
+input{
+  border: 0px;
+  margin: 1px;
+}
+
+.bouton{
+  border: 1px solid silver;
+}

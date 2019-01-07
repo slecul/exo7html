@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="exo7.css">
+    <title>exercice 7 html</title>
+  </head>
+  <body>
+    <fieldset class="champ1">
+<legend class="titre1">Votre identité</legend>legend
+<ol>
+  <li><label>Nom</label> : <input type="text" name="nom" id="nom" placeholder="Nom"/></li>
+  <li><label>Prénom</label> : <input type="text" name="prénom" id="prénom" placeholder="Prénom"/></li>
+  <li><label>Adresse mail</label> : <input type="email" name="email" id="email" placeholder="Adresse mail" /></li>
+</ol>
+  </fieldset>
+  <fieldset class="champ2">
+<legend class="titre2">Adresse de livraison</legend>
+<ol>
+  <li><label>Adresse</label> : <textarea name="adresse" id="adresse" class="area"></textarea></li>
+  <li><label>Code postal</label> : <input type="text" name="codepostal" id="codepostal" placeholder="Code postal" /></li>
+  <li><label>Ville</label> : <input type="text" name="ville" id="ville" placeholder="Ville" /></li>
+</ol>
+</fieldset>
+<fieldset class="champ3">
+<legend class="titre3">Informations de réglement</legend>
+<ol>
+  <li><label>Type de carte bancaire</label> : <br /><input type="radio" name="carte" value="Visa" id="carte" /> <label for="Visa">Visa</label><br /> <input type="radio" name="carte" value="Mastercard" id="carte" /> <label for="Mastercard">Mastercard</label></li>
+  <li><label>Numéro de carte</label> : <input type="text" name="nemérodecarte" id="numérodecarte" placeholder="Numéro de carte" /></li>
+  <li><label>Code de sécurité</label> : <input type="text" name="codedesecurité" id="codedesécurité" placeholder="Code de sécurité" /></li>
+  <li><label>Nom du titulaire</label> : <input type="text" name="nomdutitulaire" id="nomdutitulaire" placeholder="Nom du titulaire"</li>
+</ol>
+</fieldset>
+<input type="submit" value="J'achète !" class="bouton" />
+
+  </body>
+</html>
